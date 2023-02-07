@@ -1,4 +1,4 @@
-# It's a little confused, but it's my first awkward implementation. It's short and I like it!
+# It's a little confused, but this is my first awkward implementation. It's short and I like it!
 
  def binary_search(list, value)
     list.sort!
