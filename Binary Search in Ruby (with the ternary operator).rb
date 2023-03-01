@@ -7,6 +7,6 @@
     mid = (min + max) / 2
       while min <= max
         return mid if value == list[mid]
-        list[mid] > value ? max = mid -= -1 : min = mid += 1
+        list[mid] > value ? max = mid -= 1 : min = mid += 1
       end
   end
